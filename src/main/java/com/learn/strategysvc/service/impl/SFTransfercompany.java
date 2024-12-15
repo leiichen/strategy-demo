@@ -2,12 +2,10 @@ package com.learn.strategysvc.service.impl;
 
 import com.learn.strategysvc.common.constant.LogisticsType;
 import com.learn.strategysvc.request.TransferFeeRequest;
-import com.learn.strategysvc.service.LogisticsService;
 import com.learn.strategysvc.strategy.LogisticsStrategy;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-import java.util.Objects;
 
 @Service
 public class SFTransfercompany implements LogisticsStrategy {

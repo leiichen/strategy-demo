@@ -4,7 +4,6 @@ package com.learn.strategysvc.controller;
 
 import com.learn.strategysvc.common.constant.LogisticsType;
 import com.learn.strategysvc.request.TransferFeeRequest;
-import com.learn.strategysvc.service.LogisticsService;
 import com.learn.strategysvc.strategy.LogisticsStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
